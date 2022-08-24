@@ -1,3 +1,7 @@
-# Fourier Series, written in Julia
+# Some projects written in Julia
 
-![](fourier.gif)
+![](/media/fourier.gif)
+
+![](/media/archimedian.png)
+
+![](/media/series.png)

@@ -1,4 +1,6 @@
 using Colors, Luxor, Javis
+path   = "C:/Users/Reza/Desktop/juliatesting/media/" # Absolute, change this
+
 
 function ground(args...)
     Javis.background("black")
@@ -49,4 +51,4 @@ for i = 1:k
                          change(:y, sum_term(x, i-1) => sum_term(x, i))))
 end
 
-render(video; pathname="fourier.gif")
+render(video; pathname= path *"fourier.gif")
